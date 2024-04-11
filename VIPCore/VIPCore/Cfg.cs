@@ -27,6 +27,7 @@ public class Cfg
                 //DisplayUnavailableOptions = true,
                 ReOpenMenuAfterItemClick = false,
                 VipLogging = true,
+                VipDescription = "";
                 Connection = new VipDb
                 {
                     Host = "HOST",
@@ -103,6 +104,7 @@ public class ConfigVipCoreSettings
     //public bool DisplayUnavailableOptions { get; init; }
     public bool ReOpenMenuAfterItemClick { get; init; }
     public bool VipLogging { get; init; }
+    ppublic bool VipDescription { get; init; }
     public VipDb Connection { get; init; } = null!;
 }
 
